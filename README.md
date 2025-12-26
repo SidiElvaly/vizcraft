@@ -123,8 +123,7 @@ vc.styled_line(
 
 ## Interactive Election Map (Bokeh)
 
-VizCraft also provides an **interactive election map** using **Bokeh**, following the **same logic**
-as the GeoPandas notebook (aggregation, merge, same scale).
+
 
 ### Example
 
