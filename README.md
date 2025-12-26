@@ -1,9 +1,4 @@
-Below is a **clean, updated README.md** that reflects **everything you’ve implemented**, including the **Bokeh election map**, **same logic as GeoPandas**, and **execution proof expectations**.
-You can **replace your README entirely** with this.
 
----
-
-````md
 # VizCraft — Personal Python Visualization Library
 
 ## Overview
