@@ -1,6 +1,7 @@
 README.md
 pyproject.toml
 src/vizcraft/__init__.py
+src/vizcraft/bokeh_maps.py
 src/vizcraft/plots.py
 src/vizcraft/style.py
 src/vizcraft.egg-info/PKG-INFO

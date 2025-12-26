@@ -6,36 +6,21 @@ Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 Requires-Dist: matplotlib>=3.7
 
-Voici le **README.md mis à jour**, avec **la section “10. Verification Checklist” entièrement supprimée** et **une renumérotation propre**.
-Copie–colle directement dans ton fichier `README.md`.
 
-```md
-# MyVizLib — Personal Python Visualization Library
+# VizCraft — Personal Python Visualization Library
 
-## 1. Overview
+## Overview
 
-**MyVizLib** is a personal Python visualization library built on top of **Matplotlib**.
+**VizCraft** is a personal Python visualization library built on top of **Matplotlib**.
 It provides reusable plotting functions with a **consistent custom visual style**.
 
-This project was developed as part of a data visualization quiz.  
-The objective is to create a reusable visualization library that can be installed via `pip`
-and used from any Python script.
+
 
 ---
 
-## 2. Quiz Objectives
 
-The library must:
 
-- Reuse plotting logic learned in class
-- Apply a coherent and personal visual style
-- Contain at least **5 different types of charts**
-- Be correctly packaged and installable via `pip`
-- Be usable from an external Python script
-
----
-
-## 3. Features
+##  Features
 
 - Unified visual theme (colors, fonts, grid, axes, line width)
 - Clean and simple API
@@ -53,33 +38,31 @@ The library must:
 
 ---
 
-## 4. Project Structure
+##  Project Structure
 
-```
-
-myvizlib/
+```text
+vizcraft/
 ├── README.md
 ├── pyproject.toml
 ├── src/
-│   └── myvizlib/
-│       ├── **init**.py
+│   └── vizcraft/
+│       ├── __init__.py
 │       ├── style.py        # Global visual theme
 │       └── plots.py        # Plotting functions
 └── examples/
-└── demo.py             # Execution example
-
+    └── demo.py             # Execution example
 ````
 
 ---
 
-## 5. Step-by-Step Setup
+##  Step-by-Step Setup
 
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/your-username/myvizlib.git
-cd myvizlib
-````
+git clone https://github.com/SidiElvaly/vizcraft.git
+cd vizcraft
+```
 
 ---
 
@@ -114,14 +97,14 @@ This installs the library in editable mode.
 
 ---
 
-## 6. Basic Usage
+##  Basic Usage
 
 Once installed, the library can be used from any Python script.
 
 ```python
-import myvizlib as mv
+import vizcraft as vc
 
-mv.styled_line(
+vc.styled_line(
     x=[1, 2, 3],
     y=[4, 2, 5],
     title="My styled plot",
@@ -132,11 +115,11 @@ mv.styled_line(
 
 ---
 
-## 7. Demo Script
+## Demo Script
 
 A complete demonstration is available in:
 
-```
+```text
 examples/demo.py
 ```
 
@@ -154,12 +137,12 @@ This script:
 
 ---
 
-## 8. Custom Theme
+## Custom Theme
 
 The library exposes a `Theme` class to customize the visual identity.
 
 ```python
-from myvizlib import Theme, apply_style
+from vizcraft import Theme, apply_style
 
 custom_theme = Theme(
     primary="#7C3AED",
@@ -186,29 +169,5 @@ Key points:
 
 ---
 
-## 10. Submission Instructions
 
-To submit this project:
 
-1. Push the code to a public GitHub repository
-2. Include this `README.md`
-3. Add screenshots showing:
-
-   * Relevant source code
-   * Successful execution of `examples/demo.py`
-   * Generated charts
-
----
-
-## 11. Author
-
-Developed by **Your Name**
-For academic and educational purposes.
-
-```
-
-Si tu veux, je peux maintenant :
-- adapter le README **exactement au texte officiel du sujet**
-- le **traduire en français**
-- ou le rendre **encore plus concis** (style strictement académique)
-```
